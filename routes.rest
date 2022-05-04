@@ -1,0 +1,19 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/626dbd1fee2dee83caf97447
+###
+GET http://localhost:8080/contacts/626dbd1fee2dee83caf97448
+###
+GET http://localhost:8080/contacts/626dbd1fee2dee83caf97449
+
+// PRODUCTION Deploy
+###
+GET https://prestons-project.herokuapp.com/contacts
+###
+GET https://prestons-project.herokuapp.com/contacts/626dbd1fee2dee83caf97447
+###
+GET https://prestons-project.herokuapp.com/contacts/626dbd1fee2dee83caf97448
+###
+GET https://prestons-project.herokuapp.com/contacts/626dbd1fee2dee83caf97449

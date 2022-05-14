@@ -177,6 +177,7 @@
     },
     "/api-docs": {
       "get": {
+        "tags": ["contacts"],
         "description": "",
         "parameters": [],
         "responses": {}
